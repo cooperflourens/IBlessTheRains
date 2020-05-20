@@ -7,22 +7,31 @@
 </head>
 
 <body>
+	<script>
+		var audio = new Audio("Africa.mp3");
+		audio.oncanplaythrough = function() {
+			audio.play();
+		}
+		audio.loop = true;
+		audio.onend = function() {
+			audio.play();
+		}
+	</script>
 	<div>
 		<div class = "headingPad">
 			<h1>IBlessTheRains.com</h1>
+			<h2>Tap on the picture to bless the rains!</h2>
 		</div>
 		
 		<div class = "pictureFrame">
 			
-			<img src = "africa.png" alt = "The True Africa" class = "center">
+			<input type="image" src = "africa.png" class = "center" onclick="audio.play()">
 			<a class="center" href = "https://www.pngwave.com/png-clip-art-eihek">img src</a>
 		</div>
 		
-		<iframe src="Africa.mp3" allow="autoplay" style="display:none">
-		</iframe>
-		<audio autoplay controls loop class = "center" id = "song">
+		<!--<audio autoplay controls loop class = "center" id = "song">
 			<source src="Africa.mp3" type="audio/mp3">
-		</audio>
+		</audio> -->
 	</div>
 </body>
 </html>
