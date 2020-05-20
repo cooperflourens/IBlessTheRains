@@ -6,13 +6,13 @@ I made this one night when bored, and finding that IBlessTheRains.com was availa
 I'm trying to tweak it to be up to my standards.
 
 I plan to:
-Make autoplay bypass any restrictions
-Remove control bar from mobile website
-Optimize mobile interface
+Make autoplay bypass any restrictions,
+Remove control bar from mobile website,
+Optimize mobile interface,
 Create better landing page
 
 Currently:
 Has a cute image of Africa
-  Link to image below
-Plays song automatically (if manually allowed)
-Has the song embedded
+  (Link to image below),
+Plays song automatically (if manually allowed),
+Has the song embedded,
