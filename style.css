@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 90%;
+	background-image: linear-gradient(gray, black);
+	background-repeat: no-repeat;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.headingPad {
+	padding-top: 2%;
+}
+
+.pictureFrame {
+	align-content: center;
+	padding-bottom: 3%;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+}
